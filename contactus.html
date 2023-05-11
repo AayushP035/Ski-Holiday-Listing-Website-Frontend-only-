@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="contactus.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--sets initial width and zoom level of page upon first load-->
+    </head>
+    <body>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md" id="navbar">
+            <a class="navbar-brand text-white font-weight-bold" href="home.html" data-toggle="tooltip" id="navbar_brand" title="Ski Holidays"><img class="navbar_copyright" src="navbar_copyright.png" height="25px" width="25px" alt="copyright logo">Ski Holidays</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" id="navsvg">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="home.html" data-toggle="tooltip" title="Home">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="aboutus.html" data-toggle="tooltip" title="About Us">About Us</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active bg-primary" href="contactus.html" data-toggle="tooltip" title="Contact Us">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html" data-toggle="tooltip" title="Gallery">Gallery</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+
+        <!--Contact Section-->
+        <div class="jumbotron jumbotron-fluid mb-0 " id="contact_us">
+            <div class="container">
+                <div class="row" id="row1">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="contact_info_container d-flex flex-lg-row flex-column justify-content-between align-items-between">
+    
+                            <!-- Contact Item -->
+                            <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                                <div class="contact_info_image"><img src="https://img.icons8.com/office/24/000000/iphone.png" alt=""></div>
+                                <div class="contact_info_content">
+                                    <div class="contact_info_title">Phone</div>
+                                    <div class="contact_info_text">+91 9876 543 210</div>
+                                </div>
+                            </div>
+    
+                            <!-- Contact Item -->
+                            <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                                <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/filled-message.png" alt=""></div>
+                                <div class="contact_info_content">
+                                    <div class="contact_info_title">Email</div>
+                                    <div class="contact_info_text">contact@skiholidays.com</div>
+                                </div>
+                            </div>
+    
+                            <!-- Contact Item -->
+                            <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                                <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/map-marker.png" alt=""></div>
+                                <div class="contact_info_content">
+                                    <div class="contact_info_title">Address</div>
+                                    <div class="contact_info_text">212,213 Siddharth Elegance,
+                                        Nr. Volkswagon Showroom
+                                        Old Chhani Rd, Vadodara, Gujarat 390024</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Contact Form -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="contact_form_container">
+                            <div class="contact_form_title mt-5">Get in Touch  with Us</div>
+    
+                            <form action="#" id="contact_form">
+                                <div class="contact_form_inputs d-flex flex-md-row flex-column justify-content-between align-items-between">
+                                    <input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="Your name" required="required" data-error="Name is required.">
+                                    <input type="text" id="contact_form_email" class="contact_form_email input_field" placeholder="Your email" required="required" data-error="Email is required.">
+                                    <input type="text" id="contact_form_phone" class="contact_form_phone input_field" placeholder="Your phone number">
+                                </div>
+                                <div class="contact_form_text">
+                                    <textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
+                                </div>
+                                <div class="contact_form_button">
+                                    <button type="submit" class="button contact_submit_button">Send Message</button>
+                                </div>
+                            </form>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Section-->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="comp_address text-white mt-5">
+                            <address>   
+                                <h6>Company Address:</h4>
+                                212,213 Siddharth Elegance,<br>
+                                Nr. Volkswagon Showroom,<br>
+                                Old Chhani Rd,<br> 
+                                Vadodara,Gujarat-390024
+                                </address> 
+                        </div>
+                        <div class="mailto text-white mt-5 mb-5">
+                            <address>   
+                                <h6>Owner Info:</h4>
+                                    <div class="company name text-white">
+                                        Registered @ Aayush Patel
+                                    </div>
+                                    Mail To: <a href="mailto:ayushpatel50.an@gmail.com" target="_blank" class="text-primary">ayushpatel50.an@gmail.com</a>
+                                </address> 
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 text-white">
+                        <h6>Important Links</h6>
+                        <div class="ul_links">
+                            <ul class="imp_links">
+                                <li><a href="cond.html" target="_self">Booking Conditions</a></li>
+                                <li><a href="travelreg.html" target="_self">Travel Regulations</a></li>
+                                <li><a href="privacy.html" target="_self">Privacy Policy</a></li>
+                                <li><a href="cookie.html" target="_self">Cookie Policy</a></li>
+                                <li><a href="tou.html" target="_self">Terms of Use</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 text-white">
+                            <h6>Site Map</h6>
+                            <div class="ul_links">
+                                <ul class="imp_links">
+                                    <li><a href="home.html" target="_self">Home</a></li>
+                                    <li><a href="aboutus.html" target="_self">About Us</a></li>
+                                    <li><a href="gallery.html" target="_self">Gallery</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="copy_logo pt-5">
+                            <img src="copyright_logo.webp" height="50px" width="60px">
+                            <h5 class="text-white mt-3"> &copy Ski Holidays&trade;</h5> 
+                            <p class="text-white">All Rights Reserved to Ski Holidays</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Javascript-->
+        <script>
+           var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-60px";
+            }
+            prevScrollpos = currentScrollPos;
+            }
+        </script>
+    </body>
+</html>

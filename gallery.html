@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gallery</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="gallery.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--sets initial width and zoom level of page upon first load-->
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md" id="navbar">
+            <a class="navbar-brand text-white font-weight-bold" href="home.html" data-toggle="tooltip" id="navbar_brand" title="Ski Holidays"><img class="navbar_copyright" src="navbar_copyright.png" height="25px" width="25px" alt="copyright logo">Ski Holidays</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" id="navsvg">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> 
+            <a class="nav-link" href="home.html" data-toggle="tooltip" title="Home">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="aboutus.html" data-toggle="tooltip" title="About Us">About Us</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contactus.html" data-toggle="tooltip" title="Contact Us">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active bg-primary" href="gallery.html" data-toggle="tooltip" title="Gallery">Gallery</a>
+                </li>
+            </ul>
+            </div>
+            </nav>
+
+        <!--Jumbotron-1-->
+        <div class="jumbotron jumbotron-fluid mb-0 d-flex justify-content-center align-items-center" id="jumbo1">
+            <div class="h2_holder text-center">
+                <h2 class="display-4 text-white mb-5">Book your perfect holiday now !</h2>
+                <a class="btn" href="home.html"  target="_parent" id="book_now_btn" data-toggle="tooltip" title="Book Now">Book Now</a>
+            </div>
+        </div>
+
+         <!--Jumbotron-2-->
+        <div class="jumbotron jumbotron-fluid mb-0" id="jumbo2">    
+            <div class="container-fluid">
+
+                  <!--Gallery Carousels-->
+                  <div class="car1_head d-flex justify-content-center align-items-center">
+                    <h3 class="car1_h3 text-white" id="target_h3"> Popular Ski-Sights</h3>
+                  </div>
+                  <div class="carousel slide mt-5 mb-3" id="team_carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#team_carousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#team_carousel" data-slide-to="1"></li>
+                      <li data-target="#team_carousel" data-slide-to="2"></li>
+                      <li data-target="#team_carousel" data-slide-to="3"></li>
+                      <li data-target="#team_carousel" data-slide-to="4"></li>
+                      <li data-target="#team_carousel" data-slide-to="5"></li>
+                      <li data-target="#team_carousel" data-slide-to="6"></li>
+                      <li data-target="#team_carousel" data-slide-to="7"></li>
+                    </ol>
+
+                    <div class="carousel-inner d-flex">
+                      <div class="carousel-item active text-white text-center mb-5">
+                        <img class="d-block" src="show1.jpg" alt="Slide 1">
+                          <h5>THE WILD CARDS</h5>
+                          <p class="font-weight-light">Les Contamines, France</p>
+                      </div>
+                      <div class="carousel-item text-white text-center mb-5">
+                        <img class="d-block" src="show2.jpg"  alt="Slide 2">
+                          <h5>Jasna</h5>
+                          <p>Slovakia</p>
+                      </div>
+                      <div class="carousel-item text-white text-center mb-5">
+                        <img class="d-block" src="show3.jpg"  alt="Slide 3">
+                          <h5>Baqueira-Beret</h5>
+                          <p>Spain</p>
+                      </div>
+                      <div class="carousel-item text-white text-center mb-5">
+                        <img class="d-block" src="show4.jpg"  alt="Slide 4">
+                          <h5>Gerlos</h5>
+                          <p> Austria</p>
+                      </div>
+                      <div class="carousel-item text-white text-center mb-5">
+                        <img class="d-block" src="show5.jpg"  alt="Slide 5">
+                          <h5>Engelberg</h5>
+                          <p>Switzerland</p>
+                      </div>
+                      <div class="carousel-item text-white text-center mb-5">
+                        <img class="d-block" src="show6.jpg"  alt="Slide 6">
+                          <h5>Gressoney</h5>
+                          <p> Italy</p>
+                      </div>
+                      <div class="carousel-item text-white text-center mb-5">
+                        <img class="d-block" src="show7.jpg"  alt="Slide 7">
+                          <h5> Leysin</h5>
+                          <p> Switzerland</p>
+                      </div>
+                      <div class="carousel-item text-white text-center mb-5">
+                        <img class="d-block" src="show8.jpg"  alt="Slide 8">
+                          <h5>La Massana</h5>
+                          <p>Andorra</p>
+                      </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#team_carousel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" id="arrow" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#team_carousel" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" id="arrow" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                 
+            </div>
+        </div>
+
+        <!--Jumbotron-3-->
+        <div class="jumbotron jumbotron-fluid mb-0" id="jumbo3">
+            <div class="container-fluid text-center">
+                <div class="d-flex justify-content-center text-white">
+                    <div class="h2 mb-5">
+                        <h3 class="guide_head"  id="target_h3">Ski Guide</h3>
+                    </div>
+                </div>
+                <div class="flex-container d-flex">
+
+                   <div class="col-lg-3">
+                    <div class="div1">
+                        <a href="#" target="_self">
+                            <h4>Where to ski according to your star sign?</h4>
+                            <img src="star_sign.jpg" alt="star sign guide">
+                        </a>
+                        
+                    </div>
+                   </div>
+
+                   <div class="col-lg-3">
+                    <div class="div2">
+                        <a href="#" target="_self">
+                            <h4>Best ski resorts for teenagers</h4>
+                            <img src="jumbo2img3.jpeg" alt="teen guide">
+                        </a>
+                    </div>
+                   </div>
+                   
+                   <div class="col-lg-3">
+                    <div class="div3">
+                        <a href="#" target="_self">
+                            <h4>How to save money on a ski holiday</h4>
+                            <img src="save_money.jpg" alt="save  guide">
+                        </a>
+                       
+                    </div>
+                   </div>
+
+                   <div class="col-lg-3">
+                    <div class="div4">
+                        <a href="#" target="_self">
+                            <h4>Best ski resorts for families and childs</h4>
+                            <img src="young_child.jpg" alt="young guide"    >
+                        </a> 
+                    </div>
+                   </div>
+                </div>
+            </div>
+
+            
+        </div>
+    
+        <!--Jumbotron-4-->
+        <div class="jumbotron jumbotron-fluid mb-0" id="jumbo4"></div>
+
+
+        <!--Footer Section-->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="comp_address text-white mt-5">
+                            <address>   
+                                <h6>Company Address:</h4>
+                                212,213 Siddharth Elegance,<br>
+                                Nr. Volkswagon Showroom,<br>
+                                Old Chhani Rd,<br> 
+                                Vadodara,Gujarat-390024
+                                </address> 
+                        </div>
+                        <div class="mailto text-white mt-5 mb-5">
+                            <address>   
+                                <h6>Owner Info:</h4>
+                                    <div class="company name text-white">
+                                        Registered @ Aayush Patel
+                                    </div>
+                                    Mail To: <a href="mailto:ayushpatel50.an@gmail.com" target="_blank" class="text-primary">ayushpatel50.an@gmail.com</a>
+                                </address> 
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 text-white">
+                        <h6>Important Links</h6>
+                        <div class="ul_links">
+                            <ul class="imp_links">
+                                <li><a>Booking Conditions</a></li>
+                                <li><a>Travel Regulations</a></li>
+                                <li><a>Privacy Policy</a></li>
+                                <li><a>Cookie Policy</a></li>
+                                <li><a>Terms of Use</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 text-white">
+                            <h6>Site Map</h6>
+                            <div class="ul_links">
+                                <ul class="imp_links">
+                                    <li><a href="home.html" target="_self">Home</a></li>
+                                    <li><a href="aboutus.html" target="_self">About Us</a></li>
+                                    <li><a href="contactus.html" target="_self">Contact Us</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="copy_logo pt-5">
+                            <img src="copyright_logo.webp" height="50px" width="60px">
+                            <h5 class="text-white mt-3 mb-3"> &copy Ski Holidays&trade;</h5> 
+                            <p class="text-white">All Rights Reserved to Ski Holidays</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!--Javascript-->
+         <script>
+            var prevScrollpos = window.pageYOffset;
+             window.onscroll = function() {
+             var currentScrollPos = window.pageYOffset;
+             if (prevScrollpos > currentScrollPos) {
+                 document.getElementById("navbar").style.top = "0";
+             } else {
+                 document.getElementById("navbar").style.top = "-60px";
+             }
+             prevScrollpos = currentScrollPos;
+             }
+        
+             $('.carousel').carousel({
+                interval: 1500
+            })
+         </script>
+    </body>
+</html>

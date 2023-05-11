@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About Us</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="aboutus.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--sets initial width and zoom level of page upon first load-->
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md" id="navbar">
+            <a class="navbar-brand text-white font-weight-bold" href="home.html" data-toggle="tooltip" id="navbar_brand" title="Ski Holidays"><img class="navbar_copyright" src="navbar_copyright.png" height="25px" width="25px" alt="copyright logo">Ski Holidays</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" id="navsvg">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> 
+            <a class="nav-link" href="home.html" data-toggle="tooltip" title="Home">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active bg-primary" href="aboutus.html" data-toggle="tooltip" title="About Us">About Us</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contactus.html" data-toggle="tooltip" title="Contact Us">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html" data-toggle="tooltip" title="Gallery">Gallery</a>
+                </li>
+            </ul>
+            </div>
+            </nav>
+
+        <!--Jumbotron-1-->
+        <div class="jumbotron jumbotron-fluid mb-0" id="jumbo1">
+            <div class="container-fluid mt-5" id="jb1_cont">
+                    <div class="jumbo1-head" id="div1">
+
+                        <h1 class="font-weight-normal" id="meet_our_team">MEET OUR TEAM</h1>
+                        <p class="h4 mt-4 font-weight-light" id="team_quote">We all are very different. We have born in different cities, at <br>different times, we love different music, food, movies. But we have <br>something that unites us all. It is our company. We are its heart. We <br>are not just a team, we are a family.</p>
+
+                        <!--Team Carousel-->
+                        <div class="carousel slide mt-5 mb-3" id="team_carousel" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                  <li data-target="#team_carousel" data-slide-to="0" class="active"></li>
+                                  <li data-target="#team_carousel" data-slide-to="1"></li>
+                                  <li data-target="#team_carousel" data-slide-to="2"></li>
+                                </ol>
+
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active text-white">
+                                    <img class="d-block rounded-circle" src="person-1.png" height="200px" alt="Person 1">
+                                      <h5>Aayush Patel</h5>
+                                      <p class="font-weight-light">Lead Developer and Designer</p>
+                                  </div>
+                                  <div class="carousel-item text-white">
+                                    <img class="d-block rounded-circle" src="person-2.png" height="200px"  alt="Person 2">
+                                      <h5>Person 2</h5>
+                                      <p>Co-Designer</p>
+                                  </div>
+                                  <div class="carousel-item text-white">
+                                    <img class="d-block rounded-circle" src="person-3.png" height="200px"  alt="Person 3">
+                                      <h5>Person 3</h5>
+                                      <p>Co-Developer</p>
+                                  </div>
+                                </div>
+
+                                <a class="carousel-control-prev" href="#team_carousel" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#team_carousel" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                        </div>
+                              
+                        <a class="mt-4 mb-4 font-weight-bold" id="contactbtn" href="contactus.html" target="_blank" data-toggle="tooltip" title="Contact Us">CONTACT US</a>
+                    </div>
+            </div>
+        </div>
+
+        <!--Jumbotron-2-->
+        <div class="jumbotron jumbotron-fluid mb-0" id="jumbo2"></div>
+
+        <!--Jumbotron-3-->
+        <div class="jumbotron jumbotron-fluid mb-0" id="jumbo3">
+            <div><h2 class="display-4 text-center" id="about_head1">Why choose Ski-Holidays?</h2></div>
+        
+            <div class="container-fluid mt-5" id="jb3_cont">
+                <div class="row">
+                    <!--Col-1-->
+                    <div class="col-md-3" id="col1">
+                        <div class="logo1">
+                            <img src="aboutus_jb3_logo1.jpg" height="110px" width="110px" class="rounded-circle">
+                        </div>
+                        <div class="hold1 text-white">
+                            <h4>Safety</h4>
+                            <p>All flight-inclusive holidays sold on Heidi are fully financially protected under the ATOL scheme.</p>
+                        </div>
+                    </div>
+                    <!--Col-2-->
+                    <div class="col-md-3" id="col2">
+                        <div class="logo2">
+                            <img src="aboutus_jb3_logo2.jpg" height="110px" width="110px" class="rounded-circle">
+                        </div>
+                        <div class="hold2 text-white">
+                            <h4>Family Friendly</h4>
+                            <p>We know that any trip is incomplete without family and therefore we have made our holiday schemes family-friendly.</p>
+                        </div>
+                    </div>
+                    <!--Col-3-->
+                    <div class="col-md-3" id="col3">
+                        <div class="logo3">
+                            <img src="aboutus_jb3_logo3.jpg" height="110px" width="110px" class="rounded-circle">
+                        </div>
+                        <div class="hold3 text-white">
+                            <h4>Human</h4>
+                            <p>Our friendly UK-based team are here 24/7 to make sure your holiday runs smoothly.</p>
+                        </div>
+                    </div>
+                    <!--Col-4-->
+                    <div class="col-md-3" id="col4">
+                        <div class="logo4">
+                            <img src="aboutus_jb3_logo4.jpg" height="110px" width="110px" class="rounded-circle">
+                        </div>
+                        <div class="hold4 text-white">
+                            <h4>Budget Friendly</h4>
+                            <p>Our connected inventory means you can find an amazing mountain holiday at whatever your budget is!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Section-->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="comp_address text-white mt-5">
+                            <address>   
+                                <h6>Company Address:</h4>
+                                212,213 Siddharth Elegance,<br>
+                                Nr. Volkswagon Showroom,<br>
+                                Old Chhani Rd,<br> 
+                                Vadodara,Gujarat-390024
+                                </address> 
+                        </div>
+                        <div class="mailto text-white mt-5 mb-5">
+                            <address>   
+                                <h6>Owner Info:</h4>
+                                    <div class="company name text-white">
+                                        Registered @ Aayush Patel
+                                    </div>
+                                    Mail To: <a href="mailto:ayushpatel50.an@gmail.com" target="_blank" class="text-primary">ayushpatel50.an@gmail.com</a>
+                                </address> 
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 text-white">
+                        <h6>Important Links</h6>
+                        <div class="ul_links">
+                            <ul class="imp_links">
+                                <li><a>Booking Conditions</a></li>
+                                <li><a>Travel Regulations</a></li>
+                                <li><a>Privacy Policy</a></li>
+                                <li><a>Cookie Policy</a></li>
+                                <li><a>Terms of Use</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 text-white">
+                            <h6>Site Map</h6>
+                            <div class="ul_links">
+                                <ul class="imp_links">
+                                    <li><a href="home.html" target="_self">Home</a></li>
+                                    <li><a href="contactus.html" target="_self">Contact Us</a></li>
+                                    <li><a href="gallery.html" target="_self">Gallery</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="copy_logo pt-5">
+                            <img src="copyright_logo.webp" height="50px" width="60px">
+                            <h5 class="text-white mt-3"> &copy Ski Holidays&trade;</h5> 
+                            <p class="text-white">All Rights Reserved to Ski Holidays</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!--Javascript-->
+         <script>
+            var prevScrollpos = window.pageYOffset;
+             window.onscroll = function() {
+             var currentScrollPos = window.pageYOffset;
+             if (prevScrollpos > currentScrollPos) {
+                 document.getElementById("navbar").style.top = "0";
+             } else {
+                 document.getElementById("navbar").style.top = "-60px";
+             }
+             prevScrollpos = currentScrollPos;
+             }
+         </script>
+    </body>
+    </html>

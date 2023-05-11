@@ -1,0 +1,335 @@
+/*Universal properties*/
+.container-fluid{
+    max-width: 1300px;
+}
+
+/*Navbar*/
+#navbar{
+    background-color: rgb(8, 8, 8);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: ease-in-out 0.18s;
+}
+.navbar_copyright{
+  margin-top: -6px;
+  margin-right: 10px; 
+}
+.nav-item{
+  padding: 2px;
+}
+.navbar-nav a{
+  color: white;
+  margin-right: 10px;
+}
+.navbar-toggler:hover{
+  cursor: pointer;
+}
+.navbar-nav a:hover{
+  color: azure;
+  background-color:  rgba(13, 110, 253, 1) ;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: ease-in-out 0.1s;
+}
+.navbar-nav a.active{
+  border-radius: 4px;
+  font-weight: 500;
+}
+#navsvg{
+  color: black;
+  background-color:whitesmoke;
+  border-radius: 2px;
+}
+     /*Media-Queries for Navbar*/
+ @media screen and (max-width: 768px) {
+    #navbar{
+      background-color: rgb(8, 8, 8);
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .navbar-toggler svg{
+        height: 23px;
+        width: 23px;
+        margin-top: 5px;
+        margin-right: -5px;
+    }
+    #navbar_brand{
+        font-size: 5vw;
+    }
+    #navbar_brand img{
+        height: 22px;
+        width: 22px;
+    }
+  }
+
+/*Jumbotron-1*/
+#jumbo1{
+    height: 650px;
+    background-color: aquamarine;
+    background: url("gallery1.jpg");
+    background-position: 80% 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#book_now_btn{
+  border: 1px solid azure;
+  color: azure;
+  font-weight: bold;
+  font-size: 18px;
+  height: 45px;
+  width: 150px;
+}
+#book_now_btn:hover{
+  background-color: azure;
+  color: black;
+  transition: ease-in-out 0.3s;
+}
+
+
+/*Jumbotron-2*/
+#jumbo2{
+  height: 900px;
+  background-color:rgb(8, 8, 8);
+}
+/* #jumbo2 div{
+  border: solid 2px blue;
+} */
+.carousel-item img{
+  padding: 30px;
+  margin-top: -30px;
+  margin-left: 10%;
+  height: 30vw;
+  width: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel-item h5{
+  margin-top: 10px;
+}
+#arrow,.carousel-indicators{
+  cursor: pointer;
+}
+
+/*Jumbotron-3*/
+#jumbo3{
+  background-color: rgb(87, 58, 23);
+  
+}
+#jumbo3 .container-fluid img{
+  border-radius: 4px;
+}
+.container-fluid a:hover{
+  text-decoration: none;
+}
+.container-fluid a h4{
+  color: azure;
+}
+.flex-container{
+  flex-direction: row;
+  object-fit: cover;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flex-container h4{
+  margin-bottom: 20px;
+}
+.flex-container img{
+  height: 80%;
+  width: 100%;
+}
+
+
+/*Jumbotron-4*/
+#jumbo4{
+  background-color: rgb(8, 8, 8);
+}
+
+/*Media Queries for Jumbotrons*/
+@media screen and (max-width: 1200px) {
+  #jumbo1 h2{
+      font-size: 4vw;
+  }
+  #book_now_btn{
+    font-size: 17px;
+    height: 45px;
+    width: 145px;
+  }
+  #target_h3{
+    font-size: 3vw;
+  }
+  .carousel-item img{
+    height: 500px;
+    width: 80%;
+  }
+  #jumbo3 .flex-container h4{
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 992px) { 
+    #jumbo1 h2{
+        font-size: 4vw;
+    }
+    #book_now_btn{
+      font-size: 16px;
+      height: 40px;
+      width: 135px;
+    }
+    #jumbo3 .flex-container{
+      flex-direction: column;
+    }
+    #jumbo3 .flex-container img{
+      border-radius: 4px;
+      width: 70%;
+      height: 350px;
+      margin-bottom: 30px;
+    }
+    #target_h3{
+      font-size: 3.5vw;
+    }
+    #jumbo3 .flex-container h4{
+      margin-top: 20px;
+      font-size: 2.5vw;
+    }
+
+}
+  @media screen and (max-width: 768px) {
+    #jumbo1 h2{
+        font-size: 4.8vw;
+    }
+    #book_now_btn{
+      font-size: 15px;
+      height: 40px;
+      width: 130px;
+    }
+    #target_h3{
+      font-size: 3.7vw;
+    }
+    .carousel-item img{
+      height: 450px;
+      width: 80%;
+    }
+    #jumbo3 .flex-container h4{
+      font-size: 2.5vw;
+    }
+  }
+  @media screen and (max-width: 650px){
+    #book_now_btn{
+      font-size: 14px;
+      height: 35px;
+      width: 125px;
+    }
+    #jumbo3 .flex-container img{
+      height: 300px;
+      min-width: 100%;
+      max-width: 100%;
+    }
+    #jumbo3 .flex-container h4{
+      font-size: 3vw;
+    }
+  }
+  @media screen and (max-width: 540px) {
+    #jumbo1 h2{
+        font-size: 4.8vw;
+    }
+    #jumbo2{
+      height: 90vh;
+    }
+    #book_now_btn{
+      font-size: 12px;
+      height: 30px;
+      width: 115px;
+    }
+    .carousel-item img{
+      height: 350px;
+      width: 80%;
+    }
+    #jumbo3 .flex-container h4{
+      font-size: 3.4vw;
+    }
+  } 
+  @media screen and (max-width: 430px){
+    .carousel-item img{
+      height: 300px;
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    #jumbo1 h2{
+        font-size: 4.5vw;
+    }
+    #book_now_btn{
+      font-size: 9px;
+      height: 28px;
+      width: 105px;
+    }
+    #jumbo3 .flex-container img{
+      height: 200px;
+      min-width: 100%;
+      max-width: 100%;
+    }
+    #jumbo3 .flex-container h4{
+      font-size: 3.8vw;
+    }
+    #jumbo2{
+      height: 80vh;
+    }
+    #target_h3{
+      font-size: 5vw;
+    }
+  }
+  @media screen and (max-width: 350px){
+    .carousel-item img{
+      height: 200px;
+      width: 80%;
+    }
+    #jumbo2{
+      height: 60vh;
+    }
+  }
+  @media screen and (max-width: 312px) {
+    #jumbo1 h2{
+        font-size: 4.8vw;
+    }
+    #jumbo3 .flex-container img{
+      height: 150px;
+      min-width: 100%;
+      max-width: 100%;
+    }
+    .carousel-item img{
+      height: 170px;
+      width: 80%;
+    }
+    #target_h3{
+      font-size: 6vw;
+    }
+  }
+
+
+/*Footer*/
+.footer{
+    background-color: rgba(41, 37, 37, 0.912);
+    color: azure;
+  }
+  .imp_links{
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .imp_links>li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  .imp_links a{
+    color: whitesmoke;
+  }
+  .imp_links a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  .copy_logo>img{
+  margin-left: -18px;
+  }
+  .copy_logo>p{
+    margin-top: -15px;
+  }
