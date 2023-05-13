@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="bookingpage.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--sets initial width and zoom level of page upon first load-->
+    </head>
+    <body>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md" id="navbar">
+            <a class="navbar-brand text-white font-weight-bold" href="home.html" data-toggle="tooltip" id="navbar_brand" title="Ski Holidays"><img class="navbar_copyright" src="navbar_copyright.png" height="25px" width="25px" alt="copyright logo">Ski Holidays</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" id="navsvg">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="home.html" data-toggle="tooltip" title="Home">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="aboutus.html" data-toggle="tooltip" title="About Us">About Us</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contactus.html" data-toggle="tooltip" title="Contact Us">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html" data-toggle="tooltip" title="Gallery">Gallery</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+
+
+        <!--Jumbotron-1-->
+        <div class="jumbotron jumbotron-fluid mb-0 mt-3" id="jumbo1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="booking_head mt-3" id="book_head">
+                        <div class="h3 font-weight-normal text-white">Booking and Confirmation</div>
+                    </div>
+                </div>
+                <div class="container-fluid mt-3" id="result_details_div">
+                    <div class="row" id="result_row">
+                        <div class="col-lg-5 p-0">
+                            <img src="result4_image.jpg" alt="hotel room image">
+                        </div>
+                        <div class="col-lg">
+                            <div class="details_holder mt-2 mb-2">
+
+                                <div class="rating_name_location">
+                                    <div class="rating mb-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                         </svg>
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                         </svg>
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                         </svg>
+                                         
+                                    </div>
+                                    <div class="name"><h5 class="hotel_name font-weight-bold mb-1">Hotel Spa Diana Parc</h5></div>
+                                    <div class="location"><h6 class="hotel_location small font-weight-bold">ARINSAL, ANDORRA</h6></div>
+                                </div>
+
+                                <div class="inclusion_div mt-4 mb-5">
+                                    <div class="inclusions_details d-flex mb-1">
+                                        <div class="icon_wrap"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cup-straw" viewBox="0 0 16 16">
+                                            <path d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A.78.78 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278zM9.768 4.607A13.991 13.991 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a5.514 5.514 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69 1.27 0 2.081-.441 2.438-.69.042-.029.09-.094.102-.215l.852-8.03a5.517 5.517 0 0 1-.435.127 8.88 8.88 0 0 1-.89.17zM4.467 4.884s.003.002.005.006l-.005-.006zm7.066 0-.005.006c.002-.004.005-.006.005-.006zM11.354 5a3.174 3.174 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222z"/>
+                                          </svg></div>
+                                        <div class="feature_info"><h6 class="font-weight-bold ml-1">Self-Catering</h6></div>
+                                    </div>
+                                    <div class="inclusions_details d-flex mb-1">
+                                        <div class="icon_wrap"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                                            <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                                          </svg></div>
+                                        <div class="feature_info"><h6 class="font-weight-bold ml-1">Flights Included</h6></div>
+                                    </div>
+                                    <div class="inclusions_details d-flex mb-1">
+                                        <div class="icon_wrap"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-truck-front" viewBox="0 0 16 16">
+                                            <path d="M5 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-6-1a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H7ZM4 2a1 1 0 0 0-1 1v3.9c0 .625.562 1.092 1.17.994C5.075 7.747 6.792 7.5 8 7.5c1.208 0 2.925.247 3.83.394A1.008 1.008 0 0 0 13 6.9V3a1 1 0 0 0-1-1H4Zm0 1h8v3.9c0 .002 0 .001 0 0l-.002.004a.013.013 0 0 1-.005.002h-.004C11.088 6.761 9.299 6.5 8 6.5s-3.088.26-3.99.406h-.003a.013.013 0 0 1-.005-.002L4 6.9c0 .001 0 .002 0 0V3Z"/>
+                                            <path d="M1 2.5A2.5 2.5 0 0 1 3.5 0h9A2.5 2.5 0 0 1 15 2.5v9c0 .818-.393 1.544-1 2v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2a2.496 2.496 0 0 1-1-2v-9ZM3.5 1A1.5 1.5 0 0 0 2 2.5v9A1.5 1.5 0 0 0 3.5 13h9a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 12.5 1h-9Z"/>
+                                          </svg></div>
+                                        <div class="feature_info"><h6 class="font-weight-bold ml-1">Transfers Included</h6></div>
+                                    </div>
+                                    <div class="inclusions_details d-flex mb-1">
+                                        <div class="icon_wrap"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-lock2" viewBox="0 0 16 16">
+                                            <path d="M8 5a1 1 0 0 1 1 1v1H7V6a1 1 0 0 1 1-1zm2 2.076V6a2 2 0 1 0-4 0v1.076c-.54.166-1 .597-1 1.224v2.4c0 .816.781 1.3 1.5 1.3h3c.719 0 1.5-.484 1.5-1.3V8.3c0-.627-.46-1.058-1-1.224z"/>
+                                            <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+                                          </svg></div>
+                                        <div class="feature_info"><h6 class="font-weight-bold ml-1">ATOL Protected</h6></div>
+                                    </div>
+                                </div>
+
+                                <div class="price_book_div d-flex mt-4">
+                                    <div class="price_holder d-flex">
+                                        <div class="price_amount"><h5 class="font-weight-bold">Price: 38549.Rs</h5></div>
+                                        <div class="price_unit"><h6 class="font-weight-bold mt-1 ml-1">/PP</h6></div>
+                                    </div>
+                                   
+                                </div>
+
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+         <!--Jumbotron-2-->
+         <div class="jumbotron jumbotron-fluid mb-0" id="jumbo2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="booking_head " id="book_head">
+                        <div class="h4 font-weight-normal text-white">Review Your Details</div>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="container-fluid">
+            <div class="review_details">
+                <div class="review_head mt-2">
+                    <div class="h5 text-white">
+                        <h5 class="font-weight-normal">Your holiday includes:</h5>
+                    </div>
+                    <div class="h6_holder">
+                        <h6 class="font-weight-bold text-primary">Destination: Andorra</h6>
+                    </div>
+                    <div class="h6_holder">
+                        <h6 class="font-weight-bold text-primary">Rooms: 3</h6>
+                    </div>
+                    <div class="h6 font-weight-bold">
+                        <h6 class="font-weight-bold text-primary">Adults: 4</h6>
+                    </div>
+                    <div class="h6_holder">
+                        <h6 class="font-weight-bold text-primary">Children: 2</h6>
+                    </div>
+                    <div class="h6 font-weight-bold">
+                        <h6 class="font-weight-bold text-primary">Check-in: 13/05/2023</h6>
+                    </div>
+                    <div class="h6 font-weight-bold"></div>
+                    <h6 class="font-weight-bold text-primary">Check-out: 20/05/2023</h6>
+                </div>
+
+                <div class="button_holder text-center"><a href="bookingpage.html" target="_self" class="btn btn-primary font-weight-bold mt-2" data-toggle="tooltip" title="Book Now">Confirm & Book Now</a></div>
+            </div>
+        </div>
+            
+        </div>
+          <!--Footer Section-->
+          <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="comp_address text-white mt-5">
+                            <address>   
+                                <h6>Company Address:</h4>
+                                212,213 Siddharth Elegance,<br>
+                                Nr. Volkswagon Showroom,<br>
+                                Old Chhani Rd,<br> 
+                                Vadodara,Gujarat-390024
+                                </address> 
+                        </div>
+                        <div class="mailto text-white mt-5 mb-5">
+                            <address>   
+                                <h6>Owner Info:</h4>
+                                    <div class="company name text-white">
+                                        Registered @ Aayush Patel
+                                    </div>
+                                    Mail To: <a href="mailto:ayushpatel50.an@gmail.com" target="_blank" class="text-primary">ayushpatel50.an@gmail.com</a>
+                                </address> 
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 text-white">
+                        <h6>Important Links</h6>
+                        <div class="ul_links">
+                            <ul class="imp_links">
+                                <li><a>Booking Conditions</a></li>
+                                <li><a>Travel Regulations</a></li>
+                                <li><a>Privacy Policy</a></li>
+                                <li><a>Cookie Policy</a></li>
+                                <li><a>Terms of Use</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 text-white">
+                            <h6>Site Map</h6>
+                            <div class="ul_links">
+                                <ul class="imp_links">
+                                    <li><a href="home.html" target="_self">Home</a></li>
+                                    <li><a href="aboutus.html" target="_self">About Us</a></li>
+                                    <li><a href="contactus.html" target="_self">Contact Us</a></li>
+                                    <li><a href="gallery.html" target="_self">Gallery</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="copy_logo pt-5">
+                            <img src="copyright_logo.webp" height="50px" width="60px">
+                            <h5 class="text-white mt-3"> &copy Ski Holidays&trade;</h5> 
+                            <p class="text-white">All Rights Reserved to Ski Holidays</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Javascript-->
+        <script>
+            //Navbar Scroll
+           var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-60px";
+            }
+            prevScrollpos = currentScrollPos;
+            }
+            
+            
+        </script>

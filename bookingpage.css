@@ -1,0 +1,157 @@
+/*Universal properties*/
+.container-fluid{
+    max-width: 1300px;
+  }
+  
+  /*Navbar*/
+  #navbar{
+    background-color: rgb(8, 8, 8);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: ease-in-out 0.18s;
+  }
+  .navbar_copyright{
+    margin-top: -6px;
+    margin-right: 10px; 
+  }
+  .nav-item{
+  padding: 2px;
+  }
+  .navbar-nav a{
+  color: white;
+  margin-right: 10px;
+  }
+  .navbar-toggler:hover{
+  cursor: pointer;
+  }
+  .navbar-nav a:hover{
+  color: azure;
+  background-color:  rgba(13, 110, 253, 1) ;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: ease-in-out 0.1s;
+  }
+  .navbar-nav a.active{
+  border-radius: 4px;
+  font-weight: 500;
+  }
+  #navsvg{
+  color: black;
+  background-color:whitesmoke;
+  border-radius: 2px;
+  }
+    /*Media-Queries for Navbar*/
+    @media screen and (max-width: 768px) {
+    #navbar{
+      background-color: rgb(8, 8, 8);
+    }
+    }
+    @media screen and (max-width: 350px) {
+      .navbar-toggler svg{
+          height: 23px;
+          width: 23px;
+          margin-top: 5px;
+          margin-right: -5px;
+      }
+      #navbar_brand{
+          font-size: 5vw;
+      }
+      #navbar_brand img{
+          height: 22px;
+          width: 22px;
+      }
+      }
+  
+/*Jumbo1*/
+#jumbo1{
+    height: auto;
+    background-color: rgb(8, 8, 8);
+}
+#book_head{
+    margin: auto;
+}
+#jumbo2{
+    background-color: rgb(8, 8, 8);
+}
+
+#result_row .col-lg{
+    height:305px;
+}
+#price_filter_select{
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgba(13, 110, 253, 1);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 0.02em;
+}
+#price_filter_select option{
+    background-color: aliceblue;
+    color: black;
+}
+#result_details_div{
+    background-color: rgba(66, 57, 8, 0.928);
+    border-radius: 4px;
+}
+#result_details_div img{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 100%;
+    width: 100%;
+}
+.rating svg{
+    color: rgb(227, 201, 50);
+}
+.location h6{
+    color:rgb(159, 153, 153);
+}
+.inclusions_details h6{
+    margin-top: 2px;
+}
+#result_details_div h5{
+    color: rgb(165, 201, 255);
+}
+.feature_info h6{
+    color: rgb(165, 201, 255);
+    font-size: 15px;
+}
+#result_details_div .icon_wrap{
+    color: rgb(165, 201, 255);
+    margin-left: -3px;
+}
+.price_amount{
+    color: rgb(227, 201, 50);
+}
+.price_unit{
+    color: rgb(159, 153, 153);
+}
+.price_book_div{
+    justify-content: space-between;
+}
+
+/*Footer*/
+.footer{
+    background-color: rgba(41, 37, 37, 0.912);
+  }
+  .imp_links{
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .imp_links>li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  .imp_links a{
+    color: whitesmoke;
+  }
+  .imp_links a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  .copy_logo>img{
+  margin-left: -18px;
+  }
+  
